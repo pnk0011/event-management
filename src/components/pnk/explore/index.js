@@ -28,7 +28,7 @@ function Explore() {
       </div>
       <div className="bg-section">
         <div className="empty-phone">
-          <div className="bg-phone"></div>
+          {/* <div className="bg-phone"></div> */}
         </div>
       </div>
       <div className="explore-bottom">

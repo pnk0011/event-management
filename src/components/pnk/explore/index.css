@@ -54,8 +54,8 @@
   position: absolute;
   background-image: url("../assets/empty-phone.png");
   background-repeat: no-repeat;
-  height: 800px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
 }
 
 .bg-phone {

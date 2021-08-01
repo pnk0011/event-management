@@ -1,5 +1,12 @@
 .comment-section {
   background-color: #c94b32;
+  position: relative;
+}
+
+.comment-top-border {
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .comment-text {
@@ -19,6 +26,8 @@
   color: #ffffff;
   font-size: 30px;
   font: Insignia, Roman;
+  text-align: center;
+  max-width: 324px;
 }
 
 .suggestions-text1 {

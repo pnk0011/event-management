@@ -7,11 +7,13 @@ import ImgUrl5 from "../assets/comment3.svg";
 import ImgUrl6 from "../assets/suggestion-img3.svg";
 import ImgUrl7 from "../assets/comment4.svg";
 import ImgUrl8 from "../assets/suggestion-img4.svg";
+import BorderTop from "../assets/comment-top-border.svg";
 import "./index.css";
 
 function CommentSection() {
   return (
     <div className="comment-section">
+      <img className="comment-top-border" src={BorderTop} alt="border top"/>
       <div>
         <p className="comment-text">Comment ?</p>
       </div>
@@ -49,15 +51,13 @@ function CommentSection() {
           <div>
             <p className="des-suggestions">
               Des suggestions personnalisées :
-              <br />
-              <span className="suggestions-text1">
-                des événements et des groupes, sélectionnés
-              </span>
-              <br />
-              <span className="suggestions-text1">
-                en fonction de vos goûts, et à proximité.
-              </span>
             </p>
+            <div className="suggestions-text1 text-center">
+                des événements et des groupes, sélectionnés
+            </div>
+            <div className="suggestions-text1 text-center">
+                en fonction de vos goûts, et à proximité.
+            </div>
           </div>
         </div>
       </div>

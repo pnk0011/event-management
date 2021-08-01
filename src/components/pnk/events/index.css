@@ -16,6 +16,7 @@
 
 .card-container {
   display: flex;
+  z-index: 1;
 }
 
 .card-slider {
@@ -23,6 +24,8 @@
   width: 1004px;
   height: 95px;
   border-radius: 48px;
+  bottom: -47px;
+  position: absolute;
 }
 
 .card-slider-container {
@@ -30,4 +33,5 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }

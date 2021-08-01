@@ -1,0 +1,33 @@
+.events-section {
+  background-color: #188c7c;
+}
+
+.events-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.events-desc-text {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.card-container {
+  display: flex;
+}
+
+.card-slider {
+  background-color: #c94b32;
+  width: 1004px;
+  height: 95px;
+  border-radius: 48px;
+}
+
+.card-slider-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

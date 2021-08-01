@@ -1,0 +1,51 @@
+.comment-section {
+  background-color: #c94b32;
+}
+
+.comment-text {
+  margin-left: 138px;
+  padding-top: 144px;
+  color: #ffffff;
+  font-size: 25px;
+  font: Insignia, Roman;
+}
+
+.suggestion-sec {
+  display: flex;
+  justify-content: space-around;
+}
+
+.des-suggestions {
+  color: #ffffff;
+  font-size: 30px;
+  font: Insignia, Roman;
+}
+
+.suggestions-text1 {
+  font-size: 15px;
+}
+
+.img1 {
+}
+
+.suggestion-sec-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.suggestion-bottom-sec {
+  display: flex;
+  margin-left: 5%;
+}
+
+.devenir-lomads-button {
+  width: 147px;
+  height: 38px;
+  background-color: #ff8200;
+  color: #ffffff;
+  border-radius: 10px;
+  border: #ff8200;
+  font: Insignia, Roman;
+}

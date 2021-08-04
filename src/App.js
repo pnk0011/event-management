@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 
 const PNKHome = lazy(() => import("./components/pnk/home"));
+const Menu = lazy(() => import("./components/pnk/menu"));
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       <div className="App">
         <Suspense fallback={null}>
           <Route exact path="/" component={PNKHome} />
-          {/* <Route exact path="/" component={HomePage} />
-          <Route path="/register" component={RegisterPage} />
+          <Route exact path="/menu" component={Menu} />
+          {/*  <Route path="/register" component={RegisterPage} />
           <Route path="/search" component={SearchPage} /> */}
         </Suspense>
       </div>

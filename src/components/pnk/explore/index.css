@@ -51,11 +51,11 @@
 }
 
 .empty-phone {
-  position: absolute;
   background-image: url("../assets/empty-phone.png");
   background-repeat: no-repeat;
   height: 100%;
   width: 100%;
+  margin-left: 450px;
 }
 
 .bg-phone {

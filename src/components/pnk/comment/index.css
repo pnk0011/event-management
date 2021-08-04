@@ -9,9 +9,16 @@
   width: 100%;
 }
 
+.comment-bott-border {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+}
+
 .comment-text {
   margin-left: 138px;
-  padding-top: 144px;
+  padding-top: 180px;
   color: #ffffff;
   font-size: 25px;
   font: Insignia, Roman;
@@ -28,6 +35,7 @@
   font: Insignia, Roman;
   text-align: center;
   max-width: 324px;
+  margin-bottom: 10px;
 }
 
 .suggestions-text1 {

@@ -2,6 +2,7 @@ import React from "react";
 import ImgUrl1 from "../assets/diff-img1.svg";
 import ImgUrl2 from "../assets/diff-img2.svg";
 import ImgUrl3 from "../assets/diff-img3.svg";
+
 import "./index.css";
 
 const DifferenceSection = () => {

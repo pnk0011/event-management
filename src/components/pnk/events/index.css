@@ -1,11 +1,19 @@
 .events-section {
   background-color: #188c7c;
+  position: relative;
+}
+
+.events-top-border {
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .events-desc {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 170px;
 }
 
 .events-desc-text {
@@ -20,11 +28,13 @@
 }
 
 .card-slider {
+  display: flex;
+  justify-content: space-between;
   background-color: #c94b32;
   width: 1004px;
   height: 95px;
   border-radius: 48px;
-  bottom: -47px;
+  bottom: -25px;
   position: absolute;
 }
 
@@ -34,4 +44,13 @@
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+.arrow-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 38px;
+  padding-right: 38px;
+  cursor: pointer;
 }

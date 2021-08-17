@@ -14,8 +14,14 @@ import "./index.css";
 function CommentSection() {
   return (
     <div>
-      <div className="comment-section">
-        <img className="comment-top-border" src={BorderTop} alt="border top" />
+      <div className="comment-section ">
+        <div className="border-height">
+          <img
+            className="comment-top-border"
+            src={BorderTop}
+            alt="border top"
+          />
+        </div>
         <div>
           <p className="comment-text">Comment ?</p>
         </div>
@@ -115,11 +121,12 @@ function CommentSection() {
             <img src={ImgUrl8} alt="desc" />
           </div>
         </div>
-        <div style={{ paddingTop: "200px" }}>
+        <div style={{ paddingTop: "200px", zIndex: "10" }}>
           <img
             className="comment-bott-border"
             src={DiffBorderTop}
             alt="border top"
+            zIndex="-2"
           />
         </div>
       </div>

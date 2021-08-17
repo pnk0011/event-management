@@ -57,7 +57,7 @@
   width: 100%;
   margin-left: 72%;
   position: fixed;
-  z-index: 1;
+  z-index: -9;
 }
 
 .bg-phone {
@@ -67,7 +67,7 @@
 .explore-bottom {
   display: flex;
   justify-content: space-around;
-  z-index: 2;
+  z-index: 1;
 }
 
 .explore-bottom-text1 {

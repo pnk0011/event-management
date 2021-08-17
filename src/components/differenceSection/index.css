@@ -6,12 +6,15 @@
 
 .difference-section {
   margin-bottom: 5%;
+  z-index: 10;
+  background-color: #ffffff;
 }
 
 .notre-différence-text {
   color: #c94b32;
   font-size: 25px;
   font-weight: 700;
+  z-index: 3;
 }
 
 .flex-around {

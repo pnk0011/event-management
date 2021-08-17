@@ -6,23 +6,25 @@ import logoWhite from "../assets/logo-white.svg";
 
 function NavBar() {
   return (
-    <div className="nav">
-      <div className="nav__left">
+    <div className="mnav">
+      <div className="mnav__left">
         <div className="nav-logo">
-          <img
-            src={logoWhite}
-            className="nav-logo__image"
-            alt="Logo"
-            color="white"
-          />
+          <Link to="/">
+            <img
+              src={logoWhite}
+              className="nav-logo__image"
+              alt="Logo"
+              color="white"
+            />
+          </Link>
         </div>
-        <span className="nav-tagline">
+        <span className="mnav-tagline">
           Your phone is not a destination. It’s a start.
         </span>
       </div>
-      <div className="nav__right">
-        <div className="nav-menu">
-          <div className="menu-text">MENU</div>
+      <div className="mnav__right">
+        <div className="mnav-menu">
+          <div className="mmenu-text">MENU</div>
           <div style={{ marginLeft: "22px", cursor: "pointer" }}>
             <Link to="/menu">
               <img src={Menu} alt="menu" />

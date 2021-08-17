@@ -1,6 +1,7 @@
 .comment-section {
   background-color: #c94b32;
   position: relative;
+  z-index: -11;
 }
 
 .comment-top-border {
@@ -65,4 +66,8 @@
   border-radius: 10px;
   border: #ff8200;
   font: Insignia, Roman;
+}
+
+.border-height {
+  z-index: 10;
 }

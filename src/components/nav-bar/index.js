@@ -9,7 +9,9 @@ function NavBar() {
     <div className="nav">
       <div className="nav__left">
         <div className="nav-logo">
-          <img src={logo} className="nav-logo__image" alt="Logo" />
+          <Link to="/">
+            <img src={logo} className="nav-logo__image" alt="Logo" />
+          </Link>
         </div>
         <span className="nav-tagline">
           Your phone is not a destination. It’s a start.

@@ -34,8 +34,11 @@ function Explore() {
           </div>
         </div>
       </div>
-      <div className="explore-bottom">
-        <div>
+      <div
+        className="explore-bottom"
+        style={{ zIndex: "2", backgroundColor: "white" }}
+      >
+        <div style={{ zIndex: "2", backgroundColor: "white" }}>
           <div className="img-container">
             <img src={ImgUrl1} alt="desc" />
           </div>
@@ -49,7 +52,7 @@ function Explore() {
             <div>où que vous soyez.</div>
           </div>
         </div>
-        <div>
+        <div style={{ zIndex: "2", backgroundColor: "white" }}>
           <div className="img-container">
             <img src={ImgUrl2} alt="desc" />
           </div>

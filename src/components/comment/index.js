@@ -18,7 +18,7 @@ function CommentSection(props) {
   return (
     <div>
       <div className="comment-section ">
-        <div className="border-height">
+        <div className="border-height none">
           <img
             className="comment-top-border"
             src={BorderTop}
@@ -28,7 +28,7 @@ function CommentSection(props) {
         <div>
           <p className="comment-text">Comment ?</p>
         </div>
-        <div className="suggestion-sec">
+        <div className="suggestion-sec block">
           <div className="suggestion-sec-text">
             <div className="img1">
               <img src={ImgUrl1} alt="desc" />
@@ -46,11 +46,11 @@ function CommentSection(props) {
               </div>
             </div>
           </div>
-          <div>
+          <div className="center">
             <img src={ImgUrl2} alt="desc" />
           </div>
         </div>
-        <div className="suggestion-sec">
+        <div className="suggestion-sec none">
           <div>
             <img src={ImgUrl3} alt="desc" />
           </div>
@@ -70,7 +70,7 @@ function CommentSection(props) {
             </div>
           </div>
         </div>
-        <div className="suggestion-sec">
+        <div className="suggestion-sec none">
           <div className="suggestion-sec-text">
             <div className="img1">
               <img src={ImgUrl5} alt="desc" />
@@ -90,7 +90,7 @@ function CommentSection(props) {
             <img src={ImgUrl6} alt="desc" />
           </div>
         </div>
-        <div className="suggestion-bottom-sec">
+        <div className="suggestion-bottom-sec none">
           <div className="suggestion-sec-text">
             <div className="img1">
               <img src={ImgUrl7} alt="desc" />
@@ -116,7 +116,7 @@ function CommentSection(props) {
             <img src={ImgUrl8} alt="desc" />
           </div>
         </div>
-        <div style={{ zIndex: "10" }}>
+        <div style={{ zIndex: "10" }} className="none">
           <img
             className="comment-bott-border"
             src={DiffBorderTop}

@@ -9,37 +9,44 @@ import "./index.css";
 const DifferenceSection = (props) => {
   const { t } = props;
   return (
-    <div className="difference-section">
+    <div className="difference-section margin-y">
       <div className="notre-différence">
         <p className="notre-différence-text"> {t("HowAreWeDifferent")}</p>
       </div>
-      <div className="flex-around">
+      <div className="flex-around column margin-y">
         <div>
           <div className="img">
             <img src={ImgUrl1} alt="desc" />
           </div>
-
-          <div className="diff-text-wrapper">
-            <div className="diff-heading">{t("DiffSectionText1")}</div>
-
-            <div className="diff-text1">{t("DiffSectionSubText1")}</div>
+          <div>
+            <p className="diff-heading text-center ">
+              Personnalisées :
+              <br />
+              <span className="diff-text1">
+                des événements et des groupes, sélectionnés
+              </span>
+              <br />
+              <span className="diff-text1">
+                en fonction de vos goûts, et à proximité.
+              </span>
+            </p>
           </div>
         </div>
-        <div>
+        <div className="margin-y">
           <div className="img">
             <img src={ImgUrl2} alt="desc" />
           </div>
-          <div className="diff-text-wrapper">
-            <div className="diff-heading">{t("DiffSectionText2")}</div>
+          <div className="diff-text-wrapper text-center">
+            <div className="diff-heading text-center">{t("DiffSectionText2")}</div>
 
             <div className="diff-text1">{t("DiffSectionSubText2")}</div>
           </div>
         </div>
-        <div>
+        <div className="margin-y">
           <div className="img">
             <img src={ImgUrl3} alt="desc" />
           </div>
-          <div className="diff-text-wrapper">
+          <div className="diff-text-wrapper text-center">
             <div className="diff-heading">{t("DiffSectionText3")}</div>
 
             <div className="diff-text1">{t("DiffSectionSubText3")}</div>

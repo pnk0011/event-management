@@ -75,6 +75,36 @@ img {
   z-index: 10;
 }
 
+@media (max-width: 1024px) {
+  .comment-section {
+    padding: 40px 0px;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .suggestion-sec {
+    justify-content: unset;
+  }
+
+  .block {
+    display: block;
+  }
+
+  .comment-text {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .comment-sec-background-img {
   background: url("../assets/suggestion-img4.svg") no-repeat center;
   z-index: 100;

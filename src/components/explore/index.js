@@ -10,19 +10,19 @@ function Explore(props) {
   const { t } = props;
   return (
     <div className="explore">
-      <div className="dummy-text">{t("exploreText1")}</div>
-      <div className="dummy-text1">{t("exploreText2")}</div>
-      <div className="dummy-text2">
-        <div className="home-text3">{t("exploreText3")}</div>
+      <div className="dummy-text mobile-text">{t("exploreText1")}</div>
+      <div className="dummy-text1 mobile-text">{t("exploreText2")}</div>
+      <div className="dummy-text2 mobile-text">
+        <div className="home-text3 mobile-text">{t("exploreText3")}</div>
         <div className="home-text4-center">
           <div className="home-text4">{t("exploreText4")}</div>
         </div>
       </div>
       <div className="bg-section">
         <div className="empty-phone">
-          <div className="mobile-img">
-            <img src={MobileImg} alt="MobileImg" />
-          </div>
+          {/* <div className="mobile-img"> */}
+            <img src={MobileImg} alt="MobileImg" className="mobile-img"/>
+          {/* </div> */}
         </div>
       </div>
       <div

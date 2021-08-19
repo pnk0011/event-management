@@ -10,15 +10,15 @@ const ContactUsSection = (props) => {
       <div className="contactus-section">
         <div className="contact-text-container">
           <div className="contactus-align">
-            <div className="contact-main-text">
+            <div className="contact-main-text width100">
               {t("ContactUsSectionText1")}
             </div>
-            <div className="contact-text">
+            <div className="contact-text width100">
               <div style={{ display: "flex", justifyContent: "center" }}>
                 {t("ContactUsSectionText2")}
               </div>
             </div>
-            <div className="diff-sec-button" style={{ marginTop: "16px" }}>
+            <div className="diff-sec-button width100" style={{ marginTop: "16px" }}>
               <button className="devenir-lomads-button">
                 {t("BECOMEAPARTNER")}
               </button>

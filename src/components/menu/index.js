@@ -4,7 +4,7 @@ import ImgUrl1 from "../assets/menu-img1.svg";
 import ImgUrl2 from "../assets/menu-img2.svg";
 import MenuNavBar from "./menuNavBar";
 import MenuContent from "./menuContent/index";
-import { Link } from "react-router-dom";
+
 import "./menuNavBar.css";
 class Menu extends React.Component {
   render() {
@@ -17,9 +17,7 @@ class Menu extends React.Component {
         <MenuNavBar />
         <MenuContent />
         <div className="menu-img-bottom">
-          <Link to="/menu">
-            <img src={ImgUrl2} alt="menu" />
-          </Link>
+          <img src={ImgUrl2} alt="menu" />
         </div>
       </div>
     );

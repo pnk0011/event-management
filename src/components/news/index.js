@@ -1,12 +1,13 @@
 import React from "react";
-
+import { withTranslation } from "react-i18next";
 import "./index.css";
 
-const NewsSection = () => {
+const NewsSection = (props) => {
+  const { t } = props;
   return (
     <div className="news-section">
       <div className="news-desc">
-        <p className="news-desc-text">Dernières actualités</p>
+        <p className="news-desc-text">{t("LatestNews")}</p>
       </div>
       <div className="news-img-container">
         <div className="news-img"></div>
@@ -14,7 +15,7 @@ const NewsSection = () => {
         <div className="news-img"></div>
       </div>
       <div className="diff-sec-button">
-        <button className="devenir-lomads-button">L’esprit Lomads</button>
+        <button className="devenir-lomads-button">{t("MORENEWS")}</button>
       </div>
 
       <div style={{ height: "100px" }}></div>
@@ -22,4 +23,4 @@ const NewsSection = () => {
   );
 };
 
-export default NewsSection;
+export default withTranslation()(NewsSection);

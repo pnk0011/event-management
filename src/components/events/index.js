@@ -5,8 +5,10 @@ import Card from "./card";
 import EventsBorderTop from "../assets/events-border-top.svg";
 import EventsBorderBottom from "../assets/events-border-bottom.svg";
 import "./index.css";
+import { withTranslation } from "react-i18next";
 
-const EventsSection = () => {
+const EventsSection = (props) => {
+  const { t } = props;
   return (
     <div className="events-section">
       <img
@@ -15,7 +17,7 @@ const EventsSection = () => {
         alt="border top"
       />
       <div className="events-desc">
-        <p className="events-desc-text">Réservez un évènement dès maintenant</p>
+        <p className="events-desc-text">{t("EventsSectionText1")}</p>
       </div>
       <div className="card-slider-container">
         <div className="card-container">
@@ -38,7 +40,7 @@ const EventsSection = () => {
           </div>
         </div>
       </div>
-      <div style={{ paddingTop: "250px" }}>
+      <div style={{ paddingTop: "50px" }}>
         <img
           className="comment-bott-border"
           src={EventsBorderBottom}
@@ -49,4 +51,4 @@ const EventsSection = () => {
   );
 };
 
-export default EventsSection;
+export default withTranslation()(EventsSection);

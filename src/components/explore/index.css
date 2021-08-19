@@ -66,6 +66,7 @@
   /* left: calc(50% - 133px); */
   height: 420px;
   width: 188px;
+  margin-top: 50px;
 }
 
 .bg-phone {

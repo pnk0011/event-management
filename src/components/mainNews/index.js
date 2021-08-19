@@ -14,47 +14,52 @@ import "./index.css";
 class MainNews extends React.Component {
   render() {
     return (
-      <div className="main-news">
-        <div>
-          <MenuNavBar />
-        </div>
+      <div>
+        <div className="main-news">
+          <div>
+            <MenuNavBar />
+          </div>
 
-        <div>
-          <div className="news-text">Ça ce passe chez Lomads</div>
-          <div className="news-text1">Réservez un évènement dès maintenant</div>
-        </div>
-        <div style={{ marginTop: "30px" }}>
-          <div className="card-slider-container">
-            <div className="card-container">
-              <div>
-                <Card />
-              </div>
-              <div style={{ marginLeft: "30px" }}>
-                <Card />
-              </div>
-              <div style={{ marginLeft: "30px" }}>
-                <Card />
-              </div>
+          <div>
+            <div className="news-text">Ça ce passe chez Lomads</div>
+            <div className="news-text1">
+              Réservez un évènement dès maintenant
             </div>
-            <div className="card-slider">
-              <div className="arrow-icon">
-                <img src={ChevronLeft} alt="ChevronLeft" height="37px" />
+          </div>
+          <div style={{ marginTop: "30px" }}>
+            <div className="card-slider-container">
+              <div className="card-container">
+                <div>
+                  <Card />
+                </div>
+                <div style={{ marginLeft: "30px" }}>
+                  <Card />
+                </div>
+                <div style={{ marginLeft: "30px" }}>
+                  <Card />
+                </div>
               </div>
-              <div className="arrow-icon">
-                <img src={ChevronRight} alt="ChevronRight" height="37px" />
+              <div className="card-slider">
+                <div className="arrow-icon">
+                  <img src={ChevronLeft} alt="ChevronLeft" height="37px" />
+                </div>
+                <div className="arrow-icon">
+                  <img src={ChevronRight} alt="ChevronRight" height="37px" />
+                </div>
               </div>
             </div>
           </div>
-        </div>
+          <div style={{ height: "100px" }}></div>
 
-        <div className="news-border-img">
-          <div>
-            <img
-              src={NewsBorderImg1}
-              alt="borderImg"
-              width="100%"
-              style={{ marginTop: "100px", marginBottom: "-4px" }}
-            />
+          <div className="news-border-img">
+            <div>
+              <img
+                src={NewsBorderImg1}
+                alt="borderImg"
+                width="100%"
+                style={{ marginBottom: "-5px", objectFit: "cover !important" }}
+              />
+            </div>
           </div>
         </div>
         <div className="bottom-col">

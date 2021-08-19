@@ -53,11 +53,13 @@
 .empty-phone {
   background-image: url("../assets/empty-phone.png");
   background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  margin-left: 72%;
+  background-position: center;
+  /* margin-left: 72%; */
   position: fixed;
   z-index: -9;
+  /* left: calc(50% - 133px); */
+  height: 420px;
+  width: 188px;
 }
 
 .bg-phone {
@@ -83,6 +85,32 @@
 }
 
 .mobile-img {
-  margin-top: 58px;
-  margin-left: 90px;
+  margin-top: 24px;
+  margin-left: 5px;
+}
+
+@media (max-width: 1024px) {
+  .explore {
+    margin-top: 40px;
+  }
+
+  .mobile-text {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .explore-bottom {
+    flex-direction: column;
+  }
+
+  .explore-bottom > div {
+    margin: 40px 0px;
+  }
+
+  .explore-bottom > div img {
+    margin: 20px 0px;
+  }
 }

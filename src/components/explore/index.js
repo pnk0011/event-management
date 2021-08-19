@@ -8,10 +8,10 @@ import "./index.css";
 function Explore() {
   return (
     <div className="explore">
-      <div className="dummy-text">Explore ,retrouvez et partagez :</div>
-      <div className="dummy-text1">le réseau social autrement avec Lomads.</div>
-      <div className="dummy-text2">
-        <div className="home-text3">
+      <div className="dummy-text mobile-text">Explore ,retrouvez et partagez :</div>
+      <div className="dummy-text1 mobile-text">le réseau social autrement avec Lomads.</div>
+      <div className="dummy-text2 mobile-text">
+        <div className="home-text3 mobile-text">
           Social(e) : (adjectif) relatif à un groupe.
         </div>
 
@@ -29,9 +29,9 @@ function Explore() {
       </div>
       <div className="bg-section">
         <div className="empty-phone">
-          <div className="mobile-img">
-            <img src={MobileImg} alt="MobileImg" />
-          </div>
+          {/* <div className="mobile-img"> */}
+            <img src={MobileImg} alt="MobileImg" className="mobile-img"/>
+          {/* </div> */}
         </div>
       </div>
       <div

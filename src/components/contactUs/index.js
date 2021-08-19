@@ -8,15 +8,15 @@ const ContactUsSection = () => {
       <div className="contactus-section">
         <div className="contact-text-container">
           <div className="contactus-align">
-            <div className="contact-main-text">
+            <div className="contact-main-text width100">
               Le téléphone n’est qu’un moyen, pas une fin.
             </div>
-            <div className="contact-text">
+            <div className="contact-text width100">
               <div style={{ display: "flex", justifyContent: "center" }}>
                 Des outils et des conseils pour organiser vos propres évènements
               </div>
             </div>
-            <div className="diff-sec-button" style={{ marginTop: "16px" }}>
+            <div className="diff-sec-button width100" style={{ marginTop: "16px" }}>
               <button className="devenir-lomads-button">
                 Devenez partenaires
               </button>

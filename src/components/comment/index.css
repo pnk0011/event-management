@@ -71,3 +71,34 @@
 .border-height {
   z-index: 10;
 }
+
+@media (max-width: 1024px) {
+  .comment-section {
+    z-index: unset;
+    padding: 40px 0px;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .suggestion-sec {
+    justify-content: unset;
+  }
+
+  .block {
+    display: block;
+  }
+
+  .comment-text {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+}

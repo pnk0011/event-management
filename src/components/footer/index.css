@@ -31,3 +31,9 @@
   opacity: 0.5;
   margin-top: 5px;
 }
+
+@media (max-width: 480px) {
+  .app-footer {
+    display: none;
+  }
+}

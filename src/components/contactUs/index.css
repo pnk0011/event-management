@@ -1,6 +1,7 @@
 .contactus-section {
   background-image: url("../assets/contactUs.png");
   height: 520px;
+  background-size: cover;
 }
 
 .contact-main-text {
@@ -52,4 +53,28 @@
   font-size: 20px;
   font-family: Insignia;
   color: #ffffff;
+}
+
+@media (max-width: 1024px) {
+  .contactus-section {
+    background-position: center;
+  }
+
+  .width100 {
+    width: 100%;
+  }
+
+  .contact-main-text {
+    color: #ff8200;
+  }
+
+  .contactus-align {
+    margin: 0px;
+    margin-top: 30%;
+    width: 100%;
+  }
+
+  .diff-sec-button {
+    margin-top: 24px;
+  }
 }

@@ -15,7 +15,7 @@ function CommentSection() {
   return (
     <div>
       <div className="comment-section ">
-        <div className="border-height">
+        <div className="border-height none">
           <img
             className="comment-top-border"
             src={BorderTop}
@@ -25,7 +25,7 @@ function CommentSection() {
         <div>
           <p className="comment-text">Comment ?</p>
         </div>
-        <div className="suggestion-sec">
+        <div className="suggestion-sec block">
           <div className="suggestion-sec-text">
             <div className="img1">
               <img src={ImgUrl1} alt="desc" />
@@ -45,11 +45,11 @@ function CommentSection() {
               </div>
             </div>
           </div>
-          <div>
+          <div className="center">
             <img src={ImgUrl2} alt="desc" />
           </div>
         </div>
-        <div className="suggestion-sec">
+        <div className="suggestion-sec none">
           <div>
             <img src={ImgUrl3} alt="desc" />
           </div>
@@ -72,7 +72,7 @@ function CommentSection() {
             </div>
           </div>
         </div>
-        <div className="suggestion-sec">
+        <div className="suggestion-sec none">
           <div className="suggestion-sec-text">
             <div className="img1">
               <img src={ImgUrl5} alt="desc" />
@@ -95,7 +95,7 @@ function CommentSection() {
             <img src={ImgUrl6} alt="desc" />
           </div>
         </div>
-        <div className="suggestion-bottom-sec">
+        <div className="suggestion-bottom-sec none">
           <div className="suggestion-sec-text">
             <div className="img1">
               <img src={ImgUrl7} alt="desc" />
@@ -121,7 +121,7 @@ function CommentSection() {
             <img src={ImgUrl8} alt="desc" />
           </div>
         </div>
-        <div style={{ paddingTop: "200px", zIndex: "10" }}>
+        <div style={{ paddingTop: "200px", zIndex: "10" }} className="none">
           <img
             className="comment-bott-border"
             src={DiffBorderTop}

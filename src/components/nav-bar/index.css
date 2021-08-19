@@ -60,3 +60,17 @@
   color: #ff8200;
   font-family: Open Sans;
 }
+
+@media  (max-width: 1024px) {
+  .nav-tagline {
+    display: none;
+  }
+
+  .nav-lang {
+    display: none;
+  }
+
+  .nav__right {
+    width: unset;
+  }
+}

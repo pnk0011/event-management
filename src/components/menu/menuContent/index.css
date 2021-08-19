@@ -17,3 +17,22 @@
   opacity: 0.9;
   cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+  .menu-content-container {
+    margin-top: 0px;
+  }
+
+  .content-style {
+    font-size: 34px;
+  }
+
+  .content-wrapper {
+    align-items: flex-end;
+    padding: 24px;
+  }
+
+  .content-wrapper a {
+    margin-top: 65px;
+  }
+}

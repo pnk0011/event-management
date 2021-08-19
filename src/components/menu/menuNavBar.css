@@ -59,3 +59,9 @@
   color: #ffffff;
   font-family: Open Sans;
 }
+
+@media (max-width: 1024px) {
+  .mnav-tagline {
+    display: none;
+  }
+}

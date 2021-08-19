@@ -6,6 +6,7 @@ import PartnerImg4 from "../assets/partner-img4.svg";
 import PartnerBottomImg1 from "../assets/partner-bottom-img1.png";
 import PartnerBottomImg2 from "../assets/partner-bottom-img2.png";
 import PartnerBottomImg3 from "../assets/partner-bottom-img3.png";
+import PartnerBottomImg4 from "../assets/partner-bottom-img4.png";
 import ImgUrl1 from "../assets/explore-bottom-img1.svg";
 import Footer from "../footer";
 
@@ -143,7 +144,7 @@ function Explore() {
           </div>
           <div className="bottom-img-margin">
             <img
-              src={PartnerBottomImg1}
+              src={PartnerBottomImg4}
               alt="partnerImg"
               height="350px"
               width="350px"

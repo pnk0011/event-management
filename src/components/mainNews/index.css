@@ -1,6 +1,5 @@
 .main-news {
   background-color: #c94b32;
-  height: 100vh;
 }
 
 .news-text {
@@ -53,6 +52,7 @@
 
 .news-border-img {
   background-color: #c94b32;
+  margin-bottom: -5px;
 }
 
 .left-col-text {

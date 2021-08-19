@@ -1,8 +1,13 @@
 import React from "react";
 import RejoinBorderImg1 from "../assets/rejoin-border-img1.svg";
 import RejoinBorderImg2 from "../assets/rejoin-border-img2.svg";
-import PartnerImg1 from "../assets/partner-img1.png";
-import PartnerImg2 from "../assets/partner-img2.png";
+import RejoinImg1 from "../assets/rejoin-img1.png";
+import RejoinImg2 from "../assets/rejoin-img2.png";
+import RejoinImg3 from "../assets/rejoin-img3.svg";
+import RejoinImg4 from "../assets/rejoin-img4.svg";
+import RejoinImg5 from "../assets/rejoin-img5.svg";
+import RejoinImg6 from "../assets/rejoin-img6.svg";
+import RejoinImg7 from "../assets/rejoin-img7.svg";
 import ImgUrl6 from "../assets/suggestion-img3.svg";
 import Footer from "../footer";
 import ImgUrl1 from "../assets/explore-bottom-img1.svg";
@@ -36,11 +41,12 @@ class Rejoin extends React.Component {
             <div>
               <img src={RejoinBorderImg1} alt="borderImg" width="100%" />
             </div>
+            <div style={{ height: "50%" }}></div>
             <div className="border-img2">
               <img src={RejoinBorderImg2} alt="borderImg" width="100%" />
             </div>
           </div>
-          <div>
+          <div style={{ marginTop: "5%" }}>
             <div className="rejoin-img1">
               <div>
                 <div
@@ -65,13 +71,13 @@ class Rejoin extends React.Component {
                   </div>
                 </div>
                 <div className="rejoin-img2">
-                  <img src={PartnerImg1} alt="ImageRejoin" height="500px" />
+                  <img src={RejoinImg1} alt="ImageRejoin" height="500px" />
                 </div>
               </div>
 
               <div>
                 <div className="rejoin-img3">
-                  <img src={PartnerImg2} alt="ImageRejoin" height="500px" />
+                  <img src={RejoinImg2} alt="ImageRejoin" height="500px" />
                 </div>
               </div>
             </div>
@@ -79,12 +85,14 @@ class Rejoin extends React.Component {
               <div className="rejoin-text5">Notre éthique de travail</div>
               <div style={{ marginTop: "100px" }}>
                 <div className="rejoin-img5">
-                  <img src={ImgUrl1} alt="RejoinImg" />
+                  <img src={RejoinImg3} alt="RejoinImg" />
                 </div>
-                <div className="rejoin-text6">Aller plus loin, ensemble</div>
-                <div className="rejoin-text7">
-                  Nous aidons honnêtement les autres à s’épanouir et à être
-                  remarquables. Pas d’ego.
+                <div className="align-rejoin-text">
+                  <div className="rejoin-text6">Aller plus loin, ensemble</div>
+                  <div className="rejoin-text7">
+                    Nous aidons honnêtement les autres à s’épanouir et à être
+                    remarquables. Pas d’ego.
+                  </div>
                 </div>
               </div>
             </div>
@@ -92,43 +100,55 @@ class Rejoin extends React.Component {
               <div>
                 <div style={{ marginTop: "100px" }}>
                   <div className="rejoin-img5">
-                    <img src={ImgUrl1} alt="RejoinImg" />
+                    <img src={RejoinImg4} alt="RejoinImg" />
                   </div>
-                  <div className="rejoin-text6">Aller plus loin, ensemble</div>
-                  <div className="rejoin-text8">
-                    Nous aidons honnêtement les autres à s’épanouir et à être
-                    remarquables. Pas d’ego.
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div style={{ marginTop: "100px" }}>
-                  <div className="rejoin-img5">
-                    <img src={ImgUrl1} alt="RejoinImg" />
-                  </div>
-                  <div className="rejoin-text6">Aller plus loin, ensemble</div>
-                  <div className="rejoin-text8">
-                    Nous aidons honnêtement les autres à s’épanouir et à être
-                    remarquables. Pas d’ego.
+                  <div className="align-rejoin-text">
+                    <div className="rejoin-text6">
+                      Aller plus loin, ensemble
+                    </div>
+                    <div className="rejoin-text8">
+                      Nous aidons honnêtement les autres à s’épanouir et à être
+                      remarquables. Pas d’ego.
+                    </div>
                   </div>
                 </div>
               </div>
               <div>
                 <div style={{ marginTop: "100px" }}>
                   <div className="rejoin-img5">
-                    <img src={ImgUrl1} alt="RejoinImg" />
+                    <img src={RejoinImg5} alt="RejoinImg" />
                   </div>
-                  <div className="rejoin-text6">Aller plus loin, ensemble</div>
-                  <div className="rejoin-text8">
-                    Nous aidons honnêtement les autres à s’épanouir et à être
-                    remarquables. Pas d’ego.
+                  <div className="align-rejoin-text">
+                    <div className="rejoin-text6">
+                      Aller plus loin, ensemble
+                    </div>
+                    <div className="rejoin-text8">
+                      Nous aidons honnêtement les autres à s’épanouir et à être
+                      remarquables. Pas d’ego.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div style={{ marginTop: "100px" }}>
+                  <div className="rejoin-img5">
+                    <img src={RejoinImg6} alt="RejoinImg" />
+                  </div>
+                  <div className="align-rejoin-text">
+                    <div className="rejoin-text6">
+                      Aller plus loin, ensemble
+                    </div>
+                    <div className="rejoin-text8">
+                      Nous aidons honnêtement les autres à s’épanouir et à être
+                      remarquables. Pas d’ego.
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div>
               <div className="rejoin-img-bottom">
-                <img src={ImgUrl6} alt="rejoinImg" />
+                <img src={RejoinImg7} alt="rejoinImg" />
               </div>
             </div>
             <div>

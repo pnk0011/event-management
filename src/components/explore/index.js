@@ -4,27 +4,18 @@ import ImgUrl2 from "../assets/explore-bottom-img2.svg";
 import ImgUrl3 from "../assets/explore-bottom-img3.svg";
 import MobileImg from "../assets/phone-background-img.svg";
 import "./index.css";
+import { withTranslation } from "react-i18next";
 
-function Explore() {
+function Explore(props) {
+  const { t } = props;
   return (
     <div className="explore">
-      <div className="dummy-text mobile-text">Explore ,retrouvez et partagez :</div>
-      <div className="dummy-text1 mobile-text">le réseau social autrement avec Lomads.</div>
+      <div className="dummy-text mobile-text">{t("exploreText1")}</div>
+      <div className="dummy-text1 mobile-text">{t("exploreText2")}</div>
       <div className="dummy-text2 mobile-text">
-        <div className="home-text3 mobile-text">
-          Social(e) : (adjectif) relatif à un groupe.
-        </div>
-
-        <div className="home-text4">
-          La première application qui vous invite à poser votre téléphone
-        </div>
-
-        <div className="home-text4">
-          pour profiter les événements, les activités, les communautés
-        </div>
-
-        <div className="home-text4">
-          qui vous corespondent, et bien plus encore…
+        <div className="home-text3 mobile-text">{t("exploreText3")}</div>
+        <div className="home-text4-center">
+          <div className="home-text4">{t("exploreText4")}</div>
         </div>
       </div>
       <div className="bg-section">
@@ -43,13 +34,13 @@ function Explore() {
             <img src={ImgUrl1} alt="desc" />
           </div>
           <div className="text-center">
-            <div className="explore-bottom-text1">Trouvez votre communauté</div>
+            <div className="explore-bottom-text1">{t("FindYourCommunity")}</div>
 
-            <div>Participez à des événements ou à des</div>
-
-            <div>activités qui vous passionnent,</div>
-
-            <div>où que vous soyez.</div>
+            <div className="find-community-text-align">
+              <div className="find-community-text">
+                {t("FindYourCommunityText")}
+              </div>
+            </div>
           </div>
         </div>
         <div style={{ zIndex: "2", backgroundColor: "white" }}>
@@ -58,13 +49,11 @@ function Explore() {
           </div>
 
           <div className="text-center">
-            <div className="explore-bottom-text1">Trouvez votre communauté</div>
+            <div className="explore-bottom-text1">{t("StayInTouch")}</div>
 
-            <div>Participez à des événements ou à des</div>
-
-            <div>activités qui vous passionnent,</div>
-
-            <div>où que vous soyez.</div>
+            <div className="find-community-text-align">
+              <div className="find-community-text">{t("StayInTouchText")}</div>
+            </div>
           </div>
         </div>
         <div>
@@ -72,13 +61,11 @@ function Explore() {
             <img src={ImgUrl3} alt="desc" />
           </div>
           <div className="text-center">
-            <div className="explore-bottom-text1">Trouvez votre communauté</div>
+            <div className="explore-bottom-text1">{t("GrowTogether")}</div>
 
-            <div>Participez à des événements ou à des</div>
-
-            <div>activités qui vous passionnent,</div>
-
-            <div>où que vous soyez.</div>
+            <div className="find-community-text-align">
+              <div className="find-community-text">{t("GrowTogetherText")}</div>
+            </div>
           </div>
         </div>
       </div>
@@ -86,4 +73,4 @@ function Explore() {
   );
 }
 
-export default Explore;
+export default withTranslation()(Explore);

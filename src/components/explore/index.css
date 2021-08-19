@@ -8,6 +8,13 @@
   font-family: OpenSans, Open Sans;
   font-weight: 400;
   color: #1b2b41;
+  text-align: center;
+  width: 35%;
+}
+
+.home-text4-center {
+  display: flex;
+  justify-content: center;
 }
 
 .home-text3 {
@@ -43,9 +50,8 @@
   justify-content: center;
   background: url("../assets/home-bg.svg") no-repeat center;
   height: 550px;
-  width: auto;
+
   background-repeat: no-repeat;
-  margin: 0 auto;
 
   position: relative;
 }
@@ -113,4 +119,18 @@
   .explore-bottom > div img {
     margin: 20px 0px;
   }
+}
+
+.text-center {
+  margin-top: 20px;
+}
+
+.find-community-text {
+  text-align: center;
+  width: 65%;
+}
+
+.find-community-text-align {
+  display: flex;
+  justify-content: center;
 }

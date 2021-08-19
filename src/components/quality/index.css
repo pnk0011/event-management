@@ -62,6 +62,19 @@
   height: 600px;
 }
 
+.quality-back-img05 {
+  background-image: url("../assets/quality-img5.svg");
+  background-repeat: no-repeat;
+  height: 300px;
+  width: auto;
+}
+
+.quality-back-001 {
+  background-image: url("../assets/quality-img6.svg");
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
 .border-margin {
   margin-top: 425px;
 }
@@ -84,7 +97,7 @@
   font-family: Open Sans;
   text-align: center;
   margin-top: 15px;
-  width: 40%;
+  width: 70%;
 }
 
 .quality-text6 {
@@ -105,6 +118,7 @@
 .quality-video-div {
   background-color: #f3f3f3;
   height: 556px;
+  z-index: 1;
 }
 
 .line1 {

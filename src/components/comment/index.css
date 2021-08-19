@@ -5,24 +5,24 @@
 }
 
 .comment-top-border {
-  position: absolute;
+  margin-top: -1px;
   top: 0;
   width: 100%;
 }
 
 .comment-bott-border {
-  position: absolute;
   bottom: 0;
   width: 100%;
   margin-top: 30px;
+  margin-bottom: -10px;
 }
 
 .comment-text {
-  margin-left: 138px;
-  padding-top: 180px;
+  margin-left: 18%;
+
   color: #ffffff;
   font-size: 25px;
-  font: Insignia, Roman;
+  font-family: Insignia;
 }
 
 .suggestion-sec {
@@ -41,11 +41,13 @@
 
 .suggestions-text1 {
   font-size: 15px;
+  text-align: center;
+  font-family: Open Sans;
 }
 
-.img1 {
+img {
+  object-fit: cover !important;
 }
-
 .suggestion-sec-text {
   display: flex;
   align-items: center;
@@ -65,7 +67,8 @@
   color: #ffffff;
   border-radius: 10px;
   border: #ff8200;
-  font: Insignia, Roman;
+  font-family: Insignia, Roman;
+  font-size: 14px;
 }
 
 .border-height {
@@ -100,4 +103,9 @@
     display: flex;
     justify-content: center;
   }
+}
+
+.comment-sec-background-img {
+  background: url("../assets/suggestion-img4.svg") no-repeat center;
+  z-index: 100;
 }

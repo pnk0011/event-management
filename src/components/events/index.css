@@ -4,7 +4,7 @@
 }
 
 .events-top-border {
-  position: absolute;
+  margin-top: -3px;
   top: 0;
   width: 100%;
 }
@@ -13,13 +13,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 170px;
 }
 
 .events-desc-text {
   color: #ffffff;
   font-size: 25px;
-  font-weight: 700;
+
+  font-family: Insignia;
 }
 
 .card-container {

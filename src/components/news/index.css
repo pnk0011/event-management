@@ -11,7 +11,7 @@
 .news-desc-text {
   color: #ff8200;
   font-size: 25px;
-  font-weight: 700;
+  font-family: Insignia;
 }
 
 .news-img {
@@ -20,11 +20,12 @@
   border-radius: 10px;
   background-image: url("../assets/office-news.jpg");
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 16px;
 }
 
 .news-img-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin-top: 1%;
   margin-bottom: 44px;

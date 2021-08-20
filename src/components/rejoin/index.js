@@ -41,7 +41,6 @@ class Rejoin extends React.Component {
             <div>
               <img src={RejoinBorderImg1} alt="borderImg" width="100%" />
             </div>
-            <div style={{ height: "50%" }}></div>
             <div className="border-img2">
               <img src={RejoinBorderImg2} alt="borderImg" width="100%" />
             </div>
@@ -55,6 +54,7 @@ class Rejoin extends React.Component {
                     justifyContent: "center",
                     flexDirection: "column",
                   }}
+                  className="rejoin-yes"
                 >
                   <div className="rejoin-text4">
                     Convaincus de l’importance des rencontres, des échanges et
@@ -168,7 +168,7 @@ class Rejoin extends React.Component {
             </div>
           </div>
         </div>
-        <div>
+        <div className="footer">
           <Footer />
         </div>
       </div>

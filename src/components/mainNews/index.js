@@ -10,6 +10,8 @@ import FacebookLogo from "../assets/news-facebook-logo.svg";
 import InstaLogo from "../assets/news-insta-logo.svg";
 import TwitterLogo from "../assets/twitter-logo.svg";
 import "./index.css";
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 class MainNews extends React.Component {
   render() {
@@ -26,26 +28,39 @@ class MainNews extends React.Component {
               Réservez un évènement dès maintenant
             </div>
           </div>
-          <div style={{ marginTop: "30px" }}>
+          <div style={{ marginTop: "30px" }} className="base">
             <div className="card-slider-container">
               <div className="card-container">
-                <div>
+                <Carousel
+                showStatus={false}
+                showIndicators={false}
+                width="1004px" 
+                renderArrowPrev={(cb) => (
+                  <div className="arrow-icon right-icon" onClick={() => cb()}>
+                    <img src={ChevronLeft} alt="ChevronLeft" height="37px" />
+                  </div>
+                )}
+                renderArrowNext={(cb) => (
+                  <div className="arrow-icon left-icon" onClick={() => cb()}>
+                    <img src={ChevronRight} alt="ChevronRight" height="37px" />
+                  </div>
+                )}
+                infiniteLoop={false}
+                >
                   <Card />
-                </div>
-                <div style={{ marginLeft: "30px" }}>
-                  <Card />
-                </div>
-                <div style={{ marginLeft: "30px" }}>
-                  <Card />
-                </div>
+                  <Card className="marign-left"/>
+                  <Card className="marign-left"/>
+                  <Card className="marign-left"/>
+                  <Card className="marign-left"/>
+                </Carousel>
               </div>
               <div className="card-slider">
-                <div className="arrow-icon">
+                {/* <div className="arrow-icon">
                   <img src={ChevronLeft} alt="ChevronLeft" height="37px" />
                 </div>
                 <div className="arrow-icon">
                   <img src={ChevronRight} alt="ChevronRight" height="37px" />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

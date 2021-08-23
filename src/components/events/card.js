@@ -1,9 +1,9 @@
 import React from "react";
 import ImageUrl from "../assets/office-img.png";
 import "./card.css";
-const Card = () => {
+const Card = ({ className = ''}) => {
   return (
-    <div class="card">
+    <div className={`card ${className}`}>
       <div class="container">
         <div>
           <div className="card-title">
